@@ -2,17 +2,17 @@ const todosData = [
   {
     id: 1,
     text: "React",
-    completed: true
+    completed: false
   },
   {
     id: 2,
     text: "Django",
-    completed: false
+    completed: true
   },
   {
     id: 3,
     text: "DSA",
-    completed: true
+    completed: false
   },
   {
     id: 4,
@@ -23,6 +23,16 @@ const todosData = [
     id: 5,
     text: "Maintain GPA",
     completed: false
+  },
+  {
+    id:6,
+    text: "Clean House",
+    completed: false
+  },
+  {
+    id:7,
+    text: "Make Posters",
+    completed: true
   }
 ]
 

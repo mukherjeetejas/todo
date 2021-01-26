@@ -1,23 +1,12 @@
 import React from "react";
 
-/*function Todo(props){
+function Todo(props){
   return(
     <div className="todo-item">
-      <input type="checkbox" checked={props.item.completed}/>
+      <input type="checkbox" checked={props.item.completed} onChange={()=>props.handleChange(props.item.id)}/>
       <p>{props.item.text}</p>
     </div>  
   )
-}*/
-
-class Todo extends React.Component {
-  render() {
-    return (
-      <div className="todo-item">
-        <input type="checkbox" checked={this.props.item.completed} />
-        <p>{this.props.item.text}</p>
-      </div>  
-    )
-  }
 }
 
-export default Todo;
+export default Todo
